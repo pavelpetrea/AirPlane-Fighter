@@ -4,6 +4,12 @@ var gameEnded = false;
 let positionPc = 230;
 const bulletDisplay = document.getElementById("rackets");
 
+document.addEventListener("keydown", function(event) {
+  if (event.key === " " || event.code === "Space") {
+    event.preventDefault();
+  }
+});
+
 function closeText() {
   document.getElementById('text-container').style.display = 'none';
 }

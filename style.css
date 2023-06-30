@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   cursor: default;
   color: rgb(235, 235, 235);
-  margin-top: 20px;
+  margin-top: 1px;
 }
 h1:hover {
   color: rgb(187, 187, 187);
@@ -30,7 +30,9 @@ body {
   opacity: 0.8;
   border: solid 0.1px;
 } 
+
 #text-container {
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -42,9 +44,11 @@ body {
   align-items: center;
   z-index: 9999;
 }
+
 #text {
+  overflow: hidden;
   width: 27%;
-  height: 52%;
+  height: 53%;
   background-color: #ffffff;
   padding: 20px;
   max-width: 80%;
@@ -73,7 +77,9 @@ body {
 #close-button:hover {
   color: #363636;
 }
-
+#spaceButton {
+  margin-top: -15px;
+}
 #airplane {
   width: 60px;
   height: 60px;

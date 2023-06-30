@@ -1,1 +1,1 @@
-# AirPlane-Fighter
+Cross-platform game, named as Airplane Fighter, you should protect airplane agaist enemy's rackets, of course you can hit them with bullets, pressing "space" taste or "shooting button" if you are playing from mobile. Each platform has different logic and altgorithm skills, in order to have the best experience. Each 30 seconds pring new difficult game, as many time you spend defeat enemey's racket, game continue to came hardly.

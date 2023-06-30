@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   cursor: default;
   color: rgb(235, 235, 235);
-  margin-top: 1px;
+  margin-top: -6px;
 }
 h1:hover {
   color: rgb(187, 187, 187);
@@ -277,7 +277,7 @@ footer {
   -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
 }
 #description {
-  margin-top: -65px;
+  margin-top: -67px;
   font-size: small;
   text-decoration: none;
   color: aliceblue;

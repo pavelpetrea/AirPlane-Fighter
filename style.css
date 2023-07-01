@@ -400,8 +400,7 @@ footer {
     font-size: xx-small;
   }
   #close-button {
-    top: 1%;
-    right: -4.8%;
+    text-align: right;
     font-size: x-large;
   }
   #text-container {

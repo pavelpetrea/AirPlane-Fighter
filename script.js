@@ -1,6 +1,6 @@
 let startTime = null;
 let timerInterval;
-var gameEnded = false;
+let gameEnded = false;
 let positionPc = 230;
 const bulletDisplay = document.getElementById("rackets");
 
